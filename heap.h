@@ -10,13 +10,13 @@
 
 class Heap{
 
- public:
+public:
     void push(int value);     // insert value; //duplicates are allowed
     void pop(); // delete the min element 
     int top();
     bool empty();
     
- private:
+private:
     std::vector<int> vdata; //store the binary heap tree as a dynamic array
 };
 
